@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<!-- Para que admita todos los caracteres -->
+		<meta charset="UTF-8">
+
+		<!-- Enlazando css que se llama style.css -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+		<!-- Enlazando tipo de letra "Raleway" -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+
+		<title>El capitán v.0.0.1</title>
+	</head>
+	<body>
+    <nav style="text-align:right">
+      <div class="dropdown">Hola coder
+        <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" id="listaCoders">Coders</a>
+          <a href="#l">Salir</a>
+        </div>
+        </div>
+    </nav>
+
+    <div align ="center">
+      <img src="file:///C:/Users/LABORATORIA%200108/Downloads/descarga.svg" alt="ejemplo" width="400" height="150">
+    </div>
+
+    <div class="centrado">
+    <h2>¿Qué es Laboratoria?</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h5><strong>Temas</strong></h5>
+    <div>
+      <input type="button" value="Sprint 1" onclick="mostarOcultar('text1')">
+      <input type="button" value="Sprint 2" onclick="mostarOcultar('text2')">
+      <input type="button" value="Sprint 3" onclick="mostarOcultar('text3')">
+      <br/>
+      <div id="text1">
+        <h3>Sprint 1: Introducción a Javascript</h3>
+          <ol>
+            <li>Fundamentos de programación.</li>
+            <li>Funciones</li>
+            <li>Arreglos</li>
+            <li>Objetos</li>
+          </ol>
+          <hr/>
+          <h3>Quiz</h3>
+          <div>
+            <h4>Existen dos tipos de funciones</h4>
+              <input type="radio">Expresadas y declaradas<br/>
+              <input type="radio">Explícitas y declaradas<br/>
+              <input type="radio">Expresadas y derivadas<br/>
+          </div>
+
+          <div>
+            <h4>Elige una prioridad de los arreglos</h4>
+              <input type="radio">clear<br/>
+              <input type="radio">pop<br/>
+              <input type="radio">add<br/>
+          </div>
+
+          <div>
+            <h4>Un objeto tiene _ _ _ _ _ _ _ y _ _ _ _ _ _ _</h4>
+              <input type="radio">números y letras<br/>
+              <input type="radio">partes y validaciones<br/>
+              <input type="radio">propiedades y valores<br/>
+          </div><br/>
+          <button onclick="">ENVIAR</button>
+      </div>
+
+      <div id="text2">
+        <h3>Sprint 2: Introducción al desarrollo web y construcción de páginas web</h3>
+          <ol>
+            <li>Ciclo de vida del desarrollo web y arquitectura básica cliente/servidor/Configuración del ambiente de trabajo e introducción a git.</li>
+            <li>HTML y javascript en el navegador.</li>
+            <li>Manejo de comandos básicos de git en la terminal.</li>
+            <li>Pruebas unitarias</li>
+            <li>Git / Resolución de conflictos / Branching model</li>
+            <li>DOM</li>
+          </ol>
+          <hr/>
+          <h3>Quiz</h3>
+          <div>
+            <h4>¿Cuál es el comando para iniciar un repositorio desde la consola?</h4>
+              <input type="radio">git init . <br/>
+              <input type="radio">git init <br/>
+              <input type="radio">git init add <br/>
+          </div>
+
+          <div>
+            <h4>¿Cuál es la finalidad de hacer una prueba unitaria?</h4>
+              <input type="radio">Comprobar que el código funciona correctamente<br/>
+              <input type="radio">Darle valores a los parámetros de dichas funciones<br/>
+              <input type="radio">No tiene ningún fin<br/>
+          </div>
+
+          <div>
+            <h4>¿Qué significa DOM?</h4>
+              <input type="radio">Dual Objet Model<br/>
+              <input type="radio">Document Objet Model<br/>
+              <input type="radio">Document Obsolet Model<br/>
+          </div><br/>
+          <button onclick="">ENVIAR</button>
+      </div>
+      <div id="text3">Soy el tercer texto</div>
+    </div>
+    </div>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>
