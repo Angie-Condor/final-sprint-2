@@ -1,4 +1,5 @@
   var nombreCoder = prompt("¿Cuál es tu nombre Coder?");
+  document.getElementById('nombreCoder').innerHTML = nombreCoder;
 
 function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");

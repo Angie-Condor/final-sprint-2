@@ -13,7 +13,7 @@
 	</head>
 	<body>
     <nav style="text-align:right">
-      <div class="dropdown">Hola coder
+      <div class="dropdown">Hola coder <label id="nombreCoder"></label>
         <button onclick="myFunction()" class="dropbtn">&#9776;</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="coders.html">Coders</a>
@@ -23,7 +23,7 @@
     </nav>
 
     <div align ="center">
-      <img src="file:///C:/Users/LABORATORIA%200108/Downloads/descarga.svg" alt="ejemplo" width="400" height="150">
+      <img src="http://laboratoria.la/app/assets/img/logo_laboratoria-09.svg" alt="ejemplo" width="400" height="150">
     </div>
 
     <div class="centrado">
@@ -35,7 +35,7 @@
       <input type="button" value="Sprint 2" onclick="mostrarOcultar('text2')">
       <input type="button" value="Sprint 3" onclick="mostrarOcultar('text3')">
       <br/>
-      <div id="text1">
+      <div id="text1" style="display:none;">
         <h3>Sprint 1: Introducción a Javascript</h3>
           <ol>
             <li>Fundamentos de programación.</li>
@@ -68,7 +68,7 @@
           <button onclick="">ENVIAR</button>
       </div>
 
-      <div id="text2">
+      <div id="text2" style="display:block;">
         <h3>Sprint 2: Introducción al desarrollo web y construcción de páginas web</h3>
           <ol>
             <li>Ciclo de vida del desarrollo web y arquitectura básica cliente/servidor/Configuración del ambiente de trabajo e introducción a git.</li>
@@ -102,7 +102,7 @@
           </div><br/>
           <button onclick="">ENVIAR</button>
       </div>
-      <div id="text3">
+      <div id="text3" style="display:none;">
         <h3>Sprint 3</h3>
         <p>No hay lecciones(Todavía)</p>
       </div>
